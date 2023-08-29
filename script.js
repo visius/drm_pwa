@@ -8,7 +8,7 @@ const scene = new THREE.Scene()
 
 const CAR = new THREE.Object3D( );
 const loader = new GLTFLoader()
-loader.load('public/assets/free_1975_porsche_911_930_turbo.glb', function(glb){
+loader.load('assets/free_1975_porsche_911_930_turbo.glb', function(glb){
 	console.log(glb)
 	CAR.add( glb.scene );
 
